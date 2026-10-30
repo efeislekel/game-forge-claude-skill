@@ -1,0 +1,22 @@
+Game Forge
+Curated Claude Skill bundle by Anemon Creative (https://anemoncreative.com).
+
+This bundle includes material from the following projects:
+
+1. threejs-game-skills
+   https://github.com/majidmanzarpour/threejs-game-skills
+   Copyright (c) 2026 Majid Manzarpour
+   Licensed under the MIT License (see skills/game-forge/licenses/threejs-game-skills-MIT.txt).
+   Used in: modules/threejs-game-director, threejs-gameplay-systems, threejs-aaa-graphics-builder,
+   threejs-game-ui-designer, threejs-debug-profiler, threejs-qa-release.
+
+2. awesome-gamedev-agent-skills
+   https://github.com/gamedev-skills/awesome-gamedev-agent-skills
+   Licensed under the Apache License, Version 2.0
+   (see skills/game-forge/licenses/awesome-gamedev-agent-skills-Apache-2.0.txt).
+   Used in: modules/game-feel, performance-optimization, camera-systems, game-ui-ux,
+   level-design, procedural-gen, save-systems, game-ai.
+
+Modifications: each original SKILL.md was renamed to MODULE.md and given a short header
+derived from its original frontmatter; Codex-specific agents/ folders were removed; a router
+SKILL.md was added at the skill root. Module instructions are otherwise unchanged.
