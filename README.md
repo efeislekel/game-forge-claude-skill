@@ -1,5 +1,7 @@
 # Game Forge: Claude Skill for Three.js Browser Game Development
 
+[![Latest release](https://img.shields.io/github/v/release/efeislekel/game-forge-claude-skill?label=release)](https://github.com/efeislekel/game-forge-claude-skill/releases/latest) [![Downloads](https://img.shields.io/github/downloads/efeislekel/game-forge-claude-skill/total?label=downloads)](https://github.com/efeislekel/game-forge-claude-skill/releases) [![GitHub stars](https://img.shields.io/github/stars/efeislekel/game-forge-claude-skill?style=flat&label=stars)](https://github.com/efeislekel/game-forge-claude-skill/stargazers) [![License: MIT + Apache-2.0](https://img.shields.io/badge/license-MIT%20%2B%20Apache--2.0-blue)](NOTICE)
+
 **Game Forge** is an all-in-one [Claude Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) (Agent Skill, `SKILL.md` format) that turns Claude into a game development partner for **Three.js browser games**, **WebGL games** and **2D / top-down web games**. One skill, fourteen specialist modules: premium graphics, gameplay systems, game feel, game UI, camera systems, level design, procedural generation, enemy AI, save systems, performance optimization, debugging and release QA.
 
 Install it once and Claude picks the right module automatically when you ask things like *"make my game's graphics premium"*, *"the shooting doesn't feel punchy"*, *"my game drops to 30 FPS"* or *"generate a dungeon map"*.
@@ -47,7 +49,7 @@ Separate game dev skills compete with each other and with your other installed s
 
 ### claude.ai (no coding needed)
 
-1. Download [`game-forge.zip`](./game-forge.zip) from this repository.
+1. Download **[game-forge.zip](https://github.com/efeislekel/game-forge-claude-skill/releases/latest/download/game-forge.zip)** (always the latest version).
 2. In claude.ai, open Settings and go to the Skills section.
 3. Upload `game-forge.zip`. Keep it as a zip, do not extract it.
 
@@ -78,7 +80,6 @@ cp -r game-forge-claude-skill/skills/game-forge ~/.claude/skills/
 
 ```
 game-forge-claude-skill/
-├── game-forge.zip              # ready-to-upload skill for claude.ai
 └── skills/game-forge/
     ├── SKILL.md                # router: picks the right module
     ├── modules/<module>/
@@ -106,7 +107,7 @@ Bundled by [Anemon Creative](https://anemoncreative.com).
 
 **Game Forge**, Three.js ile tarayıcı oyunu yapanlar için hazırlanmış hepsi bir arada bir Claude skill'idir. Tek skill içinde 14 modül var: premium grafik, oynanış sistemleri, oyun hissi, oyun arayüzü, kamera, bölüm tasarımı, prosedürel harita üretimi, düşman yapay zekası, kayıt sistemi, performans, hata ayıklama ve yayın öncesi test.
 
-**Kurulum (claude.ai):** `game-forge.zip` dosyasını indir, claude.ai ayarlarındaki Skills bölümünden zip olarak yükle. Kod bilgisi gerekmez.
+**Kurulum (claude.ai):** [game-forge.zip](https://github.com/efeislekel/game-forge-claude-skill/releases/latest/download/game-forge.zip) dosyasını indir, claude.ai ayarlarındaki Skills bölümünden zip olarak yükle. Kod bilgisi gerekmez.
 
 Kurduktan sonra "oyunumun grafiklerini premium yap", "vuruşlar daha tok hissettirsin" ya da "oyun kasıyor, neden?" gibi isteklerde Claude doğru modülü kendisi seçer.
 
